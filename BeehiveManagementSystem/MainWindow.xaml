@@ -18,14 +18,14 @@
         </Grid.ColumnDefinitions>
         <Label Content="Job Assignments" HorizontalAlignment="Center" VerticalAlignment="Bottom" Background="#FFD6D4AA" FontSize="18" Margin="20,0,20,0" FontFamily="Bahnschrift"/>
         <StackPanel Grid.Row="1" VerticalAlignment="Top" Margin="20,20,20,20">
-            <ComboBox x:Name="jobSelector" Margin="0,0,0,20" FontSize="18" SelectedIndex="0" FontFamily="Bahnschrift">
+            <ComboBox x:Name="jobSelector" Margin="0,0,0,20" FontSize="18" SelectedIndex="0" FontFamily="Bahnschrift" >
                 <ComboBox.Background>
                     <LinearGradientBrush EndPoint="0,1">
                         <GradientStop Color="#FFF0F0F0"/>
                         <GradientStop Color="#FFE2DD7B" Offset="1"/>
                     </LinearGradientBrush>
                 </ComboBox.Background>
-                <ListBoxItem Content="NecterCollector"/>
+                <ListBoxItem Content="Nectar Collector"/>
                 <ListBoxItem Content="Honey Manufacturer"/>
                 <ListBoxItem Content="Egg Care"/>
             </ComboBox>
