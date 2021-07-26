@@ -4,9 +4,9 @@ using System.Text;
 
 namespace BeehiveManagementSystem
 {
-    class Bee
+    abstract class Bee
     {
-        public virtual float CostPerShift { get; }
+        public abstract float CostPerShift { get; }
 
         public string Job { get; private set; }
 
@@ -23,9 +23,6 @@ namespace BeehiveManagementSystem
             }
         }
 
-        protected virtual void DoJob()
-        {
-            //the subclass overrides this
-        }
+        protected abstract void DoJob();
     }
 }
